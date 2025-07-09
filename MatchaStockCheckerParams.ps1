@@ -9,8 +9,8 @@ param (
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 # 2⟶ Configuración mínima
-$uri = 'https://global.ippodo-tea.co.jp/collections/matcha/products/matcha175512'
-# $uri = 'https://global.ippodo-tea.co.jp/collections/matcha/products/matcha642402'
+#$uri = 'https://global.ippodo-tea.co.jp/collections/matcha/products/matcha175512'
+$uri = 'https://global.ippodo-tea.co.jp/collections/matcha/products/matcha642402'
 
 # 3⟶ Lógica
 try {
