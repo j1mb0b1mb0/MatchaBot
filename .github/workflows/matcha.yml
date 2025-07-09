@@ -1,5 +1,7 @@
 yaml name: MatchaWatch 
-on: schedule: - cron: '*/15 * * * *' 
+on: 
+schedule: - 
+cron: '*/15 * * * *' 
 workflow_dispatch: 
 jobs: 
 ping: 
